@@ -1,0 +1,73 @@
+body {
+	background-color: rgb(255, 51, 0);
+	font-family: 'Vollkorn', serif;
+	font-size: 18px;
+}
+
+#skel-main {
+	display: block;
+	margin: 0 auto;
+	border: 3px solid black;
+}
+
+
+/* link styles */
+.main-nav li {
+	display: inline;
+	/*padding: 20px;*/
+	font-size: 40px;
+}
+
+ul.nav li {
+	display: inline;
+	/*padding: 10px;*/
+	font-size: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+nav a.active {
+	border-bottom: 3px solid black;
+}
+
+nav a:hover {
+	border-bottom: 3px solid black;
+	border-top: 3px solid black;
+}
+
+a:link {
+	color: black;
+}
+a:visited {
+	color: black;
+}
+a:hover {
+	color: rgb(253, 175, 66);
+	background-color: white;
+	text-decoration: none;
+}
+a:active {
+	color: rgb(253, 175, 66);
+	
+}
+/* end of link styles */
+
+
+
+#skel {
+	width: 10%;
+}
+
+.wrap {
+	background-color: rgb(255, 255, 255);
+	border: 2px solid rgb(252, 176, 64);
+	padding: 30px;
+}
+
+/* founders page */
+.propic {
+	border: 3px solid black;
+}
