@@ -14,13 +14,13 @@ body {
 /* link styles */
 .main-nav li {
 	display: inline;
-	/*padding: 20px;*/
 	font-size: 40px;
+	text-align: center;
+	margin-top: 20px;
 }
 
 ul.nav li {
 	display: inline;
-	/*padding: 10px;*/
 	font-size: 20px;
 }
 
@@ -31,6 +31,9 @@ nav a {
 
 nav a.active {
 	border-bottom: 3px solid black;
+	border-top: 3px solid black;
+	text-decoration: none;
+	background-color: rgb(253, 175, 66);
 }
 
 nav a:hover {
@@ -45,13 +48,14 @@ a:visited {
 	color: black;
 }
 a:hover {
-	color: rgb(253, 175, 66);
-	background-color: white;
+	color: black;
 	text-decoration: none;
 }
 a:active {
-	color: rgb(253, 175, 66);
-	
+	color: black;
+	border-bottom: 3px solid black;
+	border-top: 3px solid black;
+	text-decoration: none;	
 }
 /* end of link styles */
 
@@ -61,10 +65,14 @@ a:active {
 	width: 10%;
 }
 
-.wrap {
+.left, .right, .wrap {
 	background-color: rgb(255, 255, 255);
 	border: 2px solid rgb(252, 176, 64);
 	padding: 30px;
+}
+
+.right {
+	font-size: 12px;
 }
 
 /* founders page */
