@@ -2,6 +2,7 @@ body {
 	background-color: rgb(255, 51, 0);
 	font-family: 'Vollkorn', serif;
 	font-size: 18px;
+	margin: 10px;
 }
 
 #skel-main {
@@ -21,7 +22,9 @@ body {
 
 ul.nav li {
 	display: inline;
-	font-size: 20px;
+	font-size: 18px;
+	text-align: center;
+	border-left: 4px solid black;
 }
 
 nav a {
@@ -59,23 +62,89 @@ a:active {
 }
 /* end of link styles */
 
-
-
-#skel {
-	width: 75%;
+h1 {
+	color: black;
+	font-size: 3.25em;
 }
 
-.left, .right, .wrap {
+h2 {
+	border-bottom: 2px solid black;
+}
+
+#skel {
+	width: 90%;
+}
+
+.left, .right, .founder-content {
 	background-color: rgb(255, 255, 255);
 	border: 2px solid rgb(252, 176, 64);
 	padding: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.founder-content {
+	margin: 20px;
 }
 
 .right {
-	font-size: 12px;
+	font-size: 14px;
+	margin-left: 30px;
+}
+
+.right a {
+	text-decoration: underline;
 }
 
 /* founders page */
 .propic {
+
 	border: 3px solid black;
 }
+
+em {
+	font-weight: 900;
+}
+
+
+@media (max-width: 400px) {
+	#skel {
+		width: 100%;
+	}
+
+	#skel-main {
+		width: 95%;
+	}
+
+	.main-nav li {
+		display: inline;
+		font-size: 30px;
+		padding-left: 0;
+	}
+
+	h1 {
+		display: none;
+	}
+
+	.right {
+		margin: 0;
+	}
+
+	ul.nav li {
+		font-size: 16px;
+		border-left: 0;
+	}
+
+	.row {
+		margin-left: 5px;
+		margin-right: 5px;
+
+	}
+}
+
+
+
+
+
+
+
