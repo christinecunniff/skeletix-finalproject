@@ -24,7 +24,8 @@ ul.nav li {
 	display: inline;
 	font-size: 18px;
 	text-align: center;
-	border-left: 4px solid black;
+	border-bottom: 2px solid black;
+	padding-left: 0;
 }
 
 nav a {
@@ -63,9 +64,15 @@ a:active {
 /* end of link styles */
 
 h1 {
-	color: black;
+	color: white;
+  	background-color: black;
+  	text-align: center;
 	font-size: 3.25em;
 }
+ .head {
+ 	padding: 0;
+  	margin-top: 4px;
+ }
 
 h2 {
 	border-bottom: 2px solid black;
@@ -109,7 +116,7 @@ em {
 
 @media (max-width: 400px) {
 	#skel {
-		width: 100%;
+		width: 20%;
 	}
 
 	#skel-main {
