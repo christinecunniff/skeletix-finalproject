@@ -11,6 +11,27 @@ body {
 	border: 3px solid black;
 }
 
+/* styling for crossfade, needs to be modified for md and sm media queries
+#both {
+	display: block;
+	margin: 0 auto;
+	border: 3px solid black;
+}
+#concert {
+	display: block;
+	margin: 0 auto;
+	border: 3px solid black;
+}
+#dom {
+	display: block;
+	margin: 0 auto;
+	border: 3px solid black;
+}
+
+.imgcross { position:relative; width:500px; height:332px; }
+.imgcross img { position:absolute; left:0; top:0; }
+*/
+
 
 /* link styles */
 .main-nav li {
